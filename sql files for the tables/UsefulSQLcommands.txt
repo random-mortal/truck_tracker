@@ -1,0 +1,10 @@
+UPDATE `maintable` SET `fueltype`='PETROL' where fueltype like 'PETRL';
+UPDATE `maintable` SET `fueltype`='PETROL' where fueltype like 'ETRL';
+UPDATE `maintable` SET `fueltype`='DIESEL' where fueltype like 'IESEL';
+
+
+10 year old -
+SELECT * from maintable where DATEDIFF(CURRENT_DATE,regdate)>3650
+
+5 year old - 
+SELECT * from maintable where DATEDIFF(CURRENT_DATE,regdate)>1825
