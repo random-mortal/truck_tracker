@@ -1,35 +1,33 @@
-1. Install Java jdk
+1. Install the Java jdk
 2. Install Android Studio
 3. Install XAMPP
 
-After all installations, cope folder 'ASapp' from pendrive to the folder in C drive. In my PC, it was this folder -  C:\Users\prana\AndroidStudioProjects
+After all installations, copy the folder 'ASapp' to the C drive. In my PC, it was this folder -  C:\Users\prana\AndroidStudioProjects
 
-Then open Android Studio, the project will be seen.
+Open Android Studio, the project will be seen.
 
-In the Android Studio,
+In Android Studio,
+
 the Java files are here - 
 app -> java -> com.example.pranav.asapp
 
-In the Android Studio,
 the layout files are here - 
 app -> res -> layout
 
-In the Android Studio,
-the main manifest files are here - 
+The manifest files are here - 
 app -> manifests
 
-In the Android Studio,
-the Gradle scripts files are here - 
+the Gradle script files are here - 
 Gradle Scripts -> build.gradle (Project: ASapp)
 Gradle Scripts -> build.gradle (Module: app)
 
 
 
 
-udb.php is the PHP file to talk to the server. It should be copied from the pendrive to the XAMPP folder. In my PC, it was this folder - 
+udb.php is the PHP file to talk to the server. It should be copied to the XAMPP folder. In my PC, it was this folder - 
 C:\xampp\htdocs
 
-The 3rd party android app is called 'RTO Vehicle Information App'.
+The 3rd party Android app is called 'RTO Vehicle Information App'.
 https://play.google.com/store/apps/details?id=indiarto.info.detailappvahan
 
 
@@ -38,7 +36,7 @@ https://play.google.com/store/apps/details?id=indiarto.info.detailappvahan
 To test the app,
 1. Open the XAMPP Control Panel.
 2. Start the Apache and MySQL Modules.
-3. To use the database, go to http://localhost/phpmyadmin/ Create a database called 'asa' . And create 2 tables using the SQL files in the folder.
+3. To use the database, go to http://localhost/phpmyadmin/ Create a database called 'asa'. And create 2 tables using the SQL files in the folder.
 3. Open Android Studio.
 4. In background.java, replace the IP address in String connstr with the IPv4 address optained from cmd(ipconfig).
 5. Click on the 'Run App' button and test it either on the Android vitrual phone or by connecting a Andriod phone by USB (enable USB debuging in Developer Options).
